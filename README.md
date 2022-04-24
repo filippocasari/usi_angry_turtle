@@ -9,11 +9,13 @@ This is the first Robotics assignment.
 
 
 ## Running the points
-Each assignement point has its own python file and we can crun them with the following commands:
+Each assignement point has its own python file and you can run them with the following commands:
 ```sh
 colcon build --packages-select usi_angry_turtle
 . install/local_setup.bash 
 ros2 run usi_angry_turtle point4 turtlesim_node
 ```
+
+Obviously, you have to set "point" and then ( 1, 2, 3 or 4) to run each point within the last bash command. 
 
 
